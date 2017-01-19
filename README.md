@@ -1,7 +1,5 @@
 # go-workerpool
-Worker pool implementation
-
-
+Worker pool implementation. Target is `Make it be a high performance golang module, used in any way`
 ##Introduction
 Inspiration by below link, want to implement a common library to support mass throughput system arch.
 
