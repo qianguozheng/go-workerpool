@@ -1,11 +1,12 @@
 package main
 
 import (
-	"./workerpool"
 	"time"
+
+	workerPool "github.com/qianguozheng/go-workerpool"
 )
 
-func main()  {
+func main() {
 	// generate worker to do job
 	dispatcher := workerPool.NewDispatcher(3)
 	dispatcher.Run()
