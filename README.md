@@ -8,6 +8,7 @@ http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang/
 ##Prototype
 
 Producer -> Generate Data
-Consumer -> Processing Data
-Worker   -> Do the real job
 
+Consumer -> Processing Data
+
+Worker   -> Do the real job
